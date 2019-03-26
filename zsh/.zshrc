@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 
 ### default zshrc
 if [ -f "$HOME/.default_zshrc" ]; then
