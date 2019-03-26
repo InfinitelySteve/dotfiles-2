@@ -18,6 +18,7 @@ brew install \
 ```shell
 brew install wget
 cd ~ && wget https://raw.githubusercontent.com/rupa/z/master/z.sh
+
 ```
 
 # fzf
@@ -49,6 +50,7 @@ brew install yarn --ignore-dependencies
 
 ```shell
 brew install shellcheck
+
 ```
 
 # ocaml
