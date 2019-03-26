@@ -55,6 +55,11 @@ asdf install ocaml 4.06.1
 ```
 
 # python
+
+issues:
+* https://github.com/pyenv/pyenv/wiki/Common-build-problems
+* https://developer.apple.com/documentation/xcode_release_notes/xcode_10_release_notes#3035624
+
 ```shell
 brew install openssl readline sqlite3 xz zlib
 
