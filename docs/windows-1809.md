@@ -11,7 +11,6 @@
     </em>
 </p>
 
-
 ## Enable WSL
 
 1. press `windows key`
@@ -35,12 +34,14 @@ Update Ubuntu deps: `sudo apt-get update && sudo apt-get upgrade`
 The filesystem used by the Linux shell is hidden deep in your user's AppData folder. To make developing more convenient we will set up a symlink between our `projects` folder across the two environments.
 
 1. create a `projects` folder in your Windows user space. I like to use `C:\Users\james\projects`
-    NB: Ubuntu will mount your `C:` drive to `/mnt/c`
+   NB: Ubuntu will mount your `C:` drive to `/mnt/c`
 2. open Ubuntu
 3. create a symlink by linking your new projects folder from Windows to our Ubuntu userspace.
-  ```shell
-    ln -sv /mnt/c/Users/<windows username>/projects ~/projects
-  ```
+
+```shell
+  ln -sv /mnt/c/Users/<windows username>/projects ~/projects
+```
+
 4. validate the symlink with `ls -la` and creating and editing a file from each userspace to see that the changes are reflected correctly.
 
 ## Yarn, Node, other dev tools & Caveat Emptor
