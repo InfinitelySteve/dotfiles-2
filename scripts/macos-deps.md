@@ -1,3 +1,9 @@
+# brew
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 # asdf
 
 ```shell
@@ -35,9 +41,9 @@ brew install coreutils gpg
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
-asdf install nodejs 10.15.3
-asdf install nodejs 8.15.1
-asdf global nodejs 10.15.3
+asdf install nodejs 10.16.0
+asdf install nodejs 8.16.0
+asdf global nodejs 10.16.0
 ```
 
 # yarn
@@ -84,8 +90,8 @@ export CPPFLAGS="-I/usr/local/opt/zlib/include"
 
 asdf plugin-add python
 asdf install python 2.7.15
-asdf install python 3.7.1
-asdf global python 3.7.1 2.7.15
+asdf install python 3.7.3
+asdf global python 3.7.3 2.7.15
 ```
 
 # ruby
